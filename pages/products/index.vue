@@ -10,7 +10,7 @@
 
 <script setup>
   //  fetch the products
-  const { data: products } = await useFetch('https://fakestoreapi.com/products')
+  const { data: products } = await useFetch('/api/notion/pages');
 
   definePageMeta({
     layout: "products",

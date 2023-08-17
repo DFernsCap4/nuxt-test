@@ -4,11 +4,11 @@ export default defineEventHandler(async (event) => {
   // const { name } = useQuery(event)
 
   // handle post data
-  // const { age } = await useBody(event)
+   //const { age } = await useBody(event)
 
-  // return {
-  //   message: `Hello, ${name}! You are ${age} years old.`
-  // }
+  //  return {
+  //    message: `Hello, ${name}! You are ${age} years old.`
+  //  }
 
   // api call with private key
   const { currencyKey } = useRuntimeConfig()
