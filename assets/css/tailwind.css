@@ -13,4 +13,7 @@ body {
   .card {
     @apply p-3 rounded-md bg-white shadow-md h-full;
   }
+  .navbar {
+    background:  linear-gradient(45deg, #1c3e6b 0%, #4588ef 100%);
+  }
 }

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <header class="shadow-sm bg-white">
+    <header class="shadow-sm bg-white navbar">
       <nav class="container mx-auto p-4 flex justify-between">
-        <NuxtLink to="/" class="font-bold">Cap4Learning</NuxtLink>
-        <ul class="flex gap-4">
+        <NuxtLink to="/" class="font-bold text-white">Cap4Learning</NuxtLink>
+        <ul class="flex gap-4 text-white">
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/about">About</NuxtLink></li>
           <li><NuxtLink to="/products" class="btn">Merch</NuxtLink></li>
@@ -18,6 +18,6 @@
 
 <style scoped>
   .router-link-exact-active {
-    color: #12b488;
+    color: #4689F1;
   }
 </style>

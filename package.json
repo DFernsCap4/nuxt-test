@@ -12,6 +12,7 @@
     "nuxt": "3.0.0-rc.11"
   },
   "dependencies": {
-    "@notionhq/client": "^2.2.10"
+    "@notionhq/client": "^2.2.10",
+    "ordered-uuid-v4": "^0.2.1"
   }
 }
