@@ -9,9 +9,9 @@
       <slot />    </div>
     <footer class="container mx-auto p-4 flex justify-between border-t-2">
       <ul class="flex gap-4 ">
-        <li><NuxtLink class="text-white" to="/">Home</NuxtLink></li>
-        <li><NuxtLink class="text-white" to="/about">About</NuxtLink></li>
-        <li><NuxtLink class="text-white" to="/products">Merch</NuxtLink></li>
+        <li><NuxtLink class="text-black" to="/">Home</NuxtLink></li>
+        <li><NuxtLink class="text-black" to="/about">About</NuxtLink></li>
+        <li><NuxtLink class="text-black" to="/products">Merch</NuxtLink></li>
       </ul>
     </footer>
   </div>
