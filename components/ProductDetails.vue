@@ -18,18 +18,6 @@
       </div>
     </div>
   </div>
-  <div class="card m-7">
-    <div class="grid grid-cols-2 gap-10">
-        <div>
-          <div class="p-7">
-            
-          </div>
-          <div class="p-7">
-
-          </div>
-        </div>
-    </div>
-  </div>
 </template>
 
 <script setup>
