@@ -23,7 +23,6 @@
 <script setup>
   const { product } = defineProps(['product'])
   const icon = product[0].properties.Category.rich_text[0].plain_text;
-  console.log(product[0].properties.Objectives.rich_text[0].plain_text);
 </script>
 
 <style scoped>

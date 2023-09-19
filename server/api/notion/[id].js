@@ -14,7 +14,6 @@ export default defineEventHandler(async (event) => {
             },
         }
     })
-    console.log(postsReady);
     return postsReady.results
 
 })
